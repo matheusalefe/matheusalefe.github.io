@@ -33,7 +33,7 @@ header{
 
 section {
     margin: 2vw;
-    height: 30vw;
+    height: 60%;
     border-color: black;
     border-style: solid;
     border-radius: 2vw;
@@ -58,4 +58,5 @@ section div{
 
 .conteudo {
     font-size: large;
+    padding-bottom: 10px;
 }
