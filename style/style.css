@@ -12,18 +12,18 @@ header{
 #nome {
     text-align: center;
     width: 100%;
-    background-color: lightslategrey;
+    background-color: rgb(155, 174, 192);
 }
 
 #foto-candidato {
     padding-top: 1vw;
-    width: 15vw;
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
 }
 
 #profile-pic {
-    width: 15vw;
+    width: 100%;
     border-color: black;
     border-radius: 50%;
     border-style: solid;
