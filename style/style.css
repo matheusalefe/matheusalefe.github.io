@@ -79,3 +79,23 @@ section div{
     width: 60%;
 }
 
+#texto-skills {
+    width: 50%;
+}
+
+#logo-skills {
+    width: 35%;
+    justify-content: right;
+    display: grid;
+    justify-content: space-around;
+}
+
+#logo-skills div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo-skills div img {
+    width: 90%;
+}
