@@ -1,6 +1,7 @@
 body{
     background-color: lightgreen;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header{
@@ -23,9 +24,38 @@ header{
 
 #profile-pic {
     width: 15vw;
-    border-color: lightslategrey;
+    border-color: black;
     border-radius: 50%;
     border-style: solid;
     margin-left: auto;
     margin-right: auto;
+}
+
+section {
+    margin: 2vw;
+    height: 30vw;
+    border-color: black;
+    border-style: solid;
+    border-radius: 2vw;
+    
+}
+
+.titulo {
+    font-size: larger;
+    text-align: center;
+}
+
+hr{
+    color: black;
+    background-color: black;
+    border-color: black;
+    height: 0.3px;
+}
+
+section div{
+    margin: 2vw;
+}
+
+.conteudo {
+    font-size: large;
 }
