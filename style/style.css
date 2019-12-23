@@ -103,8 +103,9 @@ section div{
 footer {
     background-color:  rgb(155, 174, 192);
     justify-content: center;
-    margin-bottom: 0;
     height: 5vw;
+    position: relative;
+    
 }
 
 footer a img {
