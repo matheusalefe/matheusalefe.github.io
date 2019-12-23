@@ -19,6 +19,7 @@ header{
 #foto-candidato {
     padding-top: 1vw;
     width: 20%;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
@@ -98,4 +99,16 @@ section div{
 
 #logo-skills div img {
     width: 90%;
+}
+footer {
+    background-color:  rgb(155, 174, 192);
+    justify-content: center;
+    margin-bottom: 0;
+    height: 5vw;
+}
+
+footer a img {
+    height: 100%;
+    padding-left: 50%;
+    padding-right: 50%;
 }
