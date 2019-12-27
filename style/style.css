@@ -1,46 +1,86 @@
 body{
-    background-color: lightgreen;
+    background-color: #233A59;
     margin: 0;
+    color: white;
+}
+
+h1 {
+    font-family: 'Noto Serif', serif;
+    color: rgb(77, 36, 2);
+}
+
+h2 {
+    font-family: 'Noto Serif', serif;
+    color: #F2B646;
+}
+
+h3 {
+    font-family: 'Noto Serif', serif;
+}
+
+h4 {
+    font-family: 'Noto Serif', serif;
+    color: #F2B646;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+li {
     font-family: 'Montserrat', sans-serif;
 }
 
 header{
     width: 100%;
     display: grid;
+    padding-bottom: 1vw;
+}
+
+#div {
+    width: 100%;
+    display: flex;
 }
 
 #nome {
     text-align: center;
-    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    display: flex;
+    height: 150%;
     width: 100%;
-    background-color: rgb(155, 174, 192);
+    background-color:  #F2B646;
 }
 
 #foto-candidato {
-    padding-top: 1vw;
     width: 20%;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 2vw;
+    
 }
 
 #profile-pic {
     width: 100%;
-    border-color: black;
+    border-color: white;
     border-radius: 50%;
     border-style: solid;
     margin-left: auto;
     margin-right: auto;
 }
 
+#bio {
+    width: 60%;
+    padding-left: 5vw;
+    padding-top: 6vw;
+}
+
 section {
-    margin: 2vw;
+    
     height: 40%;
-    border-color: black;
+    border-color: white;
     border-style: solid;
     border-radius: 2vw;
-   
-    
+    margin: 2vw;
 }
 
 .titulo {
@@ -49,9 +89,9 @@ section {
 }
 
 hr{
-    color: black;
-    background-color: black;
-    border-color: black;
+    color: white;
+    background-color: white;
+    border-color: white;
     height: 0.3px;
 }
 
@@ -101,15 +141,19 @@ section div{
     width: 90%;
 }
 footer {
-    background-color:  rgb(155, 174, 192);
+    background-color:  #192A40;
     justify-content: center;
-    height: 5vw;
+    font-size: 14px;
+    height: auto;
+    display: flex;
     position: relative;
+
     
 }
 
 footer a img {
-    height: 100%;
+    height: 6vw;
+    padding-top: 1vw;
     padding-left: 50%;
     padding-right: 50%;
 }
