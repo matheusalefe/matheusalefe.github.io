@@ -38,6 +38,7 @@ header{
 
 #div {
     width: 100%;
+
     display: flex;
 }
 
@@ -47,9 +48,10 @@ header{
     justify-content: center;
     font-size: xx-large;
     display: flex;
-    height: 150%;
+    height: 120%;
     width: 100%;
     background-color:  #F2B646;
+    padding-bottom: 1vw;
 }
 
 #foto-candidato {
