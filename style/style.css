@@ -149,11 +149,9 @@ section div{
 footer {
     background-color:  #192A40;
     justify-content: center;
-    font-size: 14px;
     height: auto;
     display: flex;
     position: relative;
-
     
 }
 
@@ -162,4 +160,14 @@ footer a img {
     padding-top: 1vw;
     padding-left: 50%;
     padding-right: 50%;
+}
+
+footer div h3 {
+    font-size: large ;
+    color: #F2B646;
+    
+}
+
+footer div ul li {
+    font-size: medium;
 }
