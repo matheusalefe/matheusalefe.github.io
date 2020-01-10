@@ -30,6 +30,11 @@ li {
     font-family: 'Montserrat', sans-serif;
 }
 
+#Experiencias li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;   
+}
+
 header{
     width: 100%;
     display: grid;
