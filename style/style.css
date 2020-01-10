@@ -48,10 +48,9 @@ header{
     justify-content: center;
     font-size: xx-large;
     display: flex;
-    height: 120%;
+    height: 115%;
     width: 100%;
     background-color:  #F2B646;
-    padding-bottom: 1vw;
 }
 
 #foto-candidato {
