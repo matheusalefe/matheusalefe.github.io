@@ -160,13 +160,22 @@ footer {
     
 }
 
+#links-externos{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#liks-externos a img{
+    margin-right: 3vw;
+}
+
 footer a img {
     height: 6vw;
     padding-top: 1vw;
     padding-left: 50%;
     padding-right: 50%;
-    margin-right: 10px;
-    margin-left: 10px;
 }
 
 footer div h3 {
