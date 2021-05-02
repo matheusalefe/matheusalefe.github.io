@@ -120,8 +120,24 @@ section div{
     width: 70%;
 }
 
+#img-conteudo{
+    width: auto;
+    height: auto;
+    display: grid;
+    justify-items: center;
+}
+
+#ctm{
+    width: 70%;
+
+}
+
+#unip{
+    width: auto;
+    align-self: center;
+}
+
 .logo-link {
-    width: 25%;
     justify-content: right;
     display: flex;
     justify-content: space-between;
