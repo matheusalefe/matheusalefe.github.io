@@ -65,7 +65,7 @@ header{
 #div {
     width: 100%;
     padding-top: 1.5%;
-    height: auto%;
+    height: auto;
     display: flex;
 }
 
@@ -140,6 +140,7 @@ section div{
 
 #texto-conteudo {
     width: 70%;
+    text-align: justify;
 }
 
 #img-conteudo{
@@ -147,6 +148,10 @@ section div{
     height: auto;
     display: grid;
     justify-items: center;
+}
+
+#img-conteudo a img{
+    max-width: 50%;
 }
 
 #ctm{
