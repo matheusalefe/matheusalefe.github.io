@@ -1,6 +1,7 @@
 body{
     background-color: #233A59;
     margin: 0;
+    padding: 0;
     color: white;
 }
 /*Definir cor do backgrond*/
@@ -190,7 +191,8 @@ section div{
 }
 footer {
     background-color:  #192A40;
-    justify-content: center;
+    width: 100%;
+    justify-content: space-around;
     height: auto;
     display: flex;
     position: relative;
@@ -201,7 +203,7 @@ footer {
     height: auto;
     width: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #liks-externos a img{
