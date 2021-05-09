@@ -3,7 +3,7 @@ body{
     margin: 0;
     color: white;
 }
-
+/*Definir cor do backgrond*/
 h1 {
     font-family: 'Noto Serif', serif;
     color: rgb(77, 36, 2);
@@ -34,16 +34,37 @@ li {
     font-family: 'Montserrat', sans-serif;
     font-size: larger;   
 }
-
+/*Definir cores e fontes*/
 header{
     width: 100%;
     display: grid;
     padding-bottom: 1vw;
 }
+/*Definir tamanho do cabeçalho*/
+
+#navbar{
+    width: auto;
+    height: 105%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(77, 36, 2);
+    font-family: 'Noto Serif', serif;
+   
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #F2B646;
+    font-size: large;
+    font-weight: bold;
+    
+    
+}
 
 #div {
     width: 100%;
-
+    padding-top: 1.5%;
+    height: auto%;
     display: flex;
 }
 
@@ -186,7 +207,7 @@ footer {
 #liks-externos a img{
     margin-right: 3vw;
 }
-
+/*Centralizar e tratar Divs e imagens*/
 footer a img {
     height: 6vw;
     padding-top: 1vw;
@@ -203,3 +224,4 @@ footer div h3 {
 footer div ul li {
     font-size: medium;
 }
+/*Tratar rodapé*/
