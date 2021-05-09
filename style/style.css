@@ -161,10 +161,16 @@ section div{
 
 #ctm{
     width: 70%;
+    align-self: center;
 
 }
 
 #unip{
+    width: auto;
+    align-self: center;
+}
+
+#ufabc {
     width: auto;
     align-self: center;
 }
