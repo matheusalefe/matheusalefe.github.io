@@ -138,6 +138,10 @@ section div{
     display: flex;
 }
 
+.conteudo-1{
+    display: grid;
+}
+
 #texto-conteudo {
     width: 70%;
     text-align: justify;
@@ -147,7 +151,8 @@ section div{
     width: 30%;
     height: auto;
     display: grid;
-    justify-items: center;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 #img-conteudo a img{
@@ -165,7 +170,7 @@ section div{
 }
 
 .logo-link {
-    justify-content: right;
+    justify-content: center;
     display: flex;
     justify-content: space-between;
 }
