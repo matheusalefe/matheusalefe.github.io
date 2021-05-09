@@ -144,7 +144,7 @@ section div{
 }
 
 #img-conteudo{
-    width: auto;
+    width: 30%;
     height: auto;
     display: grid;
     justify-items: center;
