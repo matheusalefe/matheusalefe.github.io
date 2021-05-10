@@ -147,6 +147,11 @@ section div{
     text-align: justify;
 }
 
+#texto-conteudo-a {
+    width: 50%;
+    text-align: justify;
+}
+
 #img-conteudo{
     width: 30%;
     height: auto;
@@ -156,6 +161,9 @@ section div{
 }
 
 #img-conteudo a img{
+    max-width: 50%;
+}
+#img-conteudo img{
     max-width: 50%;
 }
 
