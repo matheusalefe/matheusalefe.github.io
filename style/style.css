@@ -81,19 +81,17 @@ header{
 }
 
 #foto-candidato {
-    width: 20%;
+    width: 17vw;
+    height: 17vw;
     text-align: center;
-    padding-left: 2vw;
+    vertical-align: middle;
+    margin-left: 2vw;
     
 }
 
-#foto-candidato label {
-    font-size: large;
-    font-family: 'Noto Serif', serif;
-}
-
 #profile-pic {
-    width: 100%;
+    width: 17vw;
+    height: 17vw;
     border-color: white;
     border-radius: 50%;
     border-style: solid;
@@ -251,3 +249,28 @@ footer div ul li {
     font-size: medium;
 }
 /*Tratar rodapé*/
+
+#circulo{
+    width: 17vw;
+    height: 17vw;
+    border-color:#F2B646;
+    background-color: #F2B646;
+    border-radius: 50%;
+    border-style: solid;
+    margin-left: 2vw;
+}
+
+#circulo a{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #233A59;
+    font-size: medium;
+}
+
+#circulo a p{
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
