@@ -274,3 +274,7 @@ footer div ul li {
     vertical-align: middle;
     position: relative;
 }
+
+#lista-atributos{
+    text-align: justify;
+}
