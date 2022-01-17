@@ -278,3 +278,7 @@ footer div ul li {
 #lista-atributos{
     text-align: justify;
 }
+
+button{
+    cursor: pointer;
+}
