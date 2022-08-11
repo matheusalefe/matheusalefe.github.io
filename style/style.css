@@ -282,3 +282,19 @@ footer div ul li {
 button{
     cursor: pointer;
 }
+#ContainerBandeiras{
+    display: flex;
+    flex-direction: row;
+    height: 8rem;
+    width: fit-content;
+    
+}
+#ContainerBandeiras a img{
+    height: 3rem;
+    width: 5rem;
+}
+.GrupoBandeiras{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
