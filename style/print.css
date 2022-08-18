@@ -4,10 +4,15 @@ body{
     padding: 0;
     color: white;
 }
+@page{
+    margin: 0;
+
+}
 /*Definir cor do backgrond*/
 h1 {
     font-family: 'Noto Serif', serif;
     color: rgb(77, 36, 2);
+    font-size: 3rem;
 }
 
 h2 {
@@ -39,7 +44,6 @@ li {
 header{
     width: 100%;
     display: flexbox;
-    padding-bottom: 1vw;
     justify-content: center;
 }
 /*Definir tamanho do cabeçalho*/
@@ -54,6 +58,11 @@ header{
     
 }
 
+.no-print, .no-print *{
+        display: none !important;
+    }
+
+
 #navbar a {
     text-decoration: none;
     color: #F2B646;
@@ -65,7 +74,6 @@ header{
 
 #div {
     width: 100%;
-    padding-top: 1.5%;
     height: auto;
     display: flex;
 }
@@ -74,36 +82,19 @@ header{
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-size: xx-large;
+    height: 3rem;
     display: flex;
-    height: auto;
     width: 100%;
     background-color:  #F2B646;
+    padding-top: 1.6cm;
 }
 
-#foto-candidato {
-    width: 17vw;
-    height: 17vw;
-    text-align: center;
-    vertical-align: middle;
-    margin-left: 2vw;
-    
-}
-
-#profile-pic {
-    width: 17vw;
-    height: 17vw;
-    border-color: white;
-    border-radius: 50%;
-    border-style: solid;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 #bio {
-    width: 60%;
-    padding-left: 5vw;
-    padding-top: 3.5vw;
+    width: 100%;
+    text-align: justify;
+    padding-left: 0.8cm;
+    padding-right: 0.8cm;
 }
 
 section {
@@ -112,33 +103,52 @@ section {
     border-color: white;
     border-style: solid;
     border-radius: 2vw;
-    margin: 2vw;
+    margin: 0.5rem;
+
 }
 
 .titulo {
     font-size: larger;
     text-align: center;
+    padding-top: 1.6cm;
 }
 
+.pagebreaker{
+    page-break-before: always;
+}
+.only-printing{
+    display: flex;
+    position: absolute;
+    top: 0.3rem;
+    left: 85%;
+    padding-top: 1.6cm;
+    visibility: visible;
+}
 hr{
     color: white;
     background-color: white;
     border-color: white;
     height: 0.3px;
+    padding-left: 1.6cm;
+    padding-left: 1.6cm;
 }
 
 section div{
-    margin: 2vw;
+    margin: 0.5vw;
 }
 
 .conteudo {
     font-size: large;
     width: 100%;
     display: flex;
+    padding-left: 0.8cm;
+    padding-right: 0.8cm;
 }
 
 .conteudo-1{
     display: grid;
+    padding-left: 0.8cm;
+    padding-right: 0.8cm;
 }
 
 #texto-conteudo {
@@ -147,8 +157,7 @@ section div{
 }
 
 #texto-conteudo a {
-    width: 50%;
-    text-align: justify;
+    visibility: hidden;
 }
 
 #img-conteudo{
@@ -212,15 +221,6 @@ section div{
 #logo-skills div img {
     width: 90%;
 }
-footer {
-    background-color:  #192A40;
-    width: 100%;
-    justify-content: space-around;
-    height: auto;
-    display: flex;
-    position: relative;
-    
-}
 
 #links-externos{
     height: auto;
@@ -231,49 +231,6 @@ footer {
 
 #liks-externos a img{
     margin-right: 3vw;
-}
-/*Centralizar e tratar Divs e imagens*/
-footer a img {
-    height: 6vw;
-    padding-top: 1vw;
-    padding-left: 50%;
-    padding-right: 50%;
-}
-
-footer div h3 {
-    font-size: large ;
-    color: #F2B646;
-    
-}
-
-footer div ul li {
-    font-size: medium;
-}
-/*Tratar rodapé*/
-
-#circulo{
-    width: 17vw;
-    height: 17vw;
-    border-color:#F2B646;
-    background-color: #F2B646;
-    border-radius: 50%;
-    border-style: solid;
-    margin-left: 2vw;
-}
-
-#circulo a{
-    width: 100%;
-    height: 100%;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    color: #233A59;
-    font-size: medium;
-}
-
-#circulo a p{
-    text-align: center;
-    vertical-align: middle;
-    position: relative;
 }
 
 #lista-atributos{
@@ -298,9 +255,4 @@ button{
     display: flex;
     flex-direction: column;
     width: fit-content;
-}
-
-.only-printing{
-    display: none;
-    visibility: hidden;
 }

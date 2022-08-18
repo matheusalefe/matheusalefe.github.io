@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/print.css" media="print">
     <link rel="shortcut icon" href="img/Matheus_Alefe_Logo.ico" type="image/x-icon">
     <!-- Iniciar Favicon -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Noto+Serif&display=swap" rel="stylesheet">
@@ -15,14 +16,15 @@
     <header>
         <div id="nome">
             <h1>Matheus Alefe</h1>
+            <img src="./img/qr-code.png" alt="qr-code" class="only-printing">
         </div>
-        <nav id="navbar">
+        <nav id="navbar" class="no-print">
             <a href="/index.html">Home</a>
             <a href="/portifolio.html">Portifolio</a>
             <a href="/contato.html">Contato</a>
         </nav>
     <div id="div">
-        <div id="foto-candidato" onmouseenter="entrar()" onmouseout="sair()">
+        <div id="foto-candidato" class="no-print">
             <a href="docs/Currículo Matheus Alefe.pdf" target="_blank"><img src="img/profile-pic.jpg" alt="Matheus Alefe" id="profile-pic"></a>
         </div>
         <div id="bio">
@@ -66,6 +68,7 @@
                     </div>
                     <div class="conteudo">
                         <div id="texto-conteudo">
+                            <h3><strong>Ensino Superior:</strong></h3>
                             <p>Universidade Federal do ABC - UFABC</p>
                             <p>Curso: Bacharel em Ciência e Tecnologia (BC&T)</p>
                             <p>Situação: Matriculado</p>
@@ -80,7 +83,7 @@
             </div>
         </div>
         <div class="titulo">
-            <h2><strong>Formação Complementar</strong></h2>
+            <h2 class="pagebreaker"><strong>Formação Complementar</strong></h2>
             <hr>
         </div>
         <div>
@@ -106,7 +109,7 @@
             </div>
         </div>
         <div class="titulo">
-            <h2><strong>Experiências Relevantes</strong></h2>
+            <h2 class="pagebreaker"><strong>Experiências Relevantes</strong></h2>
             <hr>
         </div>
         <div>
@@ -130,6 +133,8 @@
                     <ul>
                         <li>Português (Nativo)</li>
                         <li>Inglês (intermediário)</li>
+                        <li>Alemão (iniciante)</li>
+                        <li>Espenhol (iniciante)</li>
                     </ul>
                     <h3><strong>Habilidades:</strong></h3>
                     <ul>
@@ -160,7 +165,7 @@
             </div>
         </div>
     </section>
-    <footer>
+    <footer class="no-print">
         <!--Criar rodapé-->
         <div>
             <h3>Contato:</h3>
