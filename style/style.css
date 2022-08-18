@@ -151,7 +151,7 @@ section div{
     text-align: justify;
 }
 
-#img-conteudo{
+.img-conteudo{
     width: 30%;
     height: auto;
     display: grid;
@@ -159,27 +159,24 @@ section div{
     padding-right: auto;
 }
 
-#img-conteudo a img{
+.img-conteudo a img{
     max-width: 50%;
+    justify-content: flex-end;
 }
-#img-conteudo img{
+.img-conteudo img{
     max-width: 50%;
 }
 
 #ctm{
     width: 70%;
-    align-self: center;
+    align-self: flex-end;
 
 }
 
-#unip{
-    width: auto;
-    align-self: center;
-}
 
 #ufabc {
-    width: auto;
-    align-self: center;
+    width: 70%;
+    align-self: flex-end;
 }
 
 .logo-link {
@@ -283,21 +280,23 @@ footer div ul li {
 button{
     cursor: pointer;
 }
-#ContainerBandeiras{
+.ContainerImg{
     display: flex;
     flex-direction: row;
     height: 8rem;
     width: fit-content;
     
 }
-#ContainerBandeiras a img{
-    height: 3rem;
-    width: 5rem;
-}
-.GrupoBandeiras{
+
+.GrupoImg{
     display: flex;
     flex-direction: column;
     width: fit-content;
+}
+
+.GrupoImg a img{
+    min-width: 5rem;
+    max-width: 5rem;
 }
 
 .only-printing{

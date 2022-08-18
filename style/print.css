@@ -2,7 +2,7 @@ body{
     background-color: #233A59;
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 @page{
     margin: 0;
@@ -63,15 +63,6 @@ header{
     }
 
 
-#navbar a {
-    text-decoration: none;
-    color: #F2B646;
-    font-size: large;
-    font-weight: bold;
-    
-    
-}
-
 #div {
     width: 100%;
     height: auto;
@@ -91,36 +82,38 @@ header{
 
 
 #bio {
-    width: 100%;
+    width: 85%;
     text-align: justify;
     padding-left: 0.8cm;
     padding-right: 0.8cm;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 section {
-    
     height: 40%;
     border-color: white;
     border-style: solid;
     border-radius: 2vw;
-    margin: 0.5rem;
 
 }
 
 .titulo {
     font-size: larger;
     text-align: center;
-    padding-top: 1.6cm;
 }
 
 .pagebreaker{
     page-break-before: always;
+    padding-top: 1.6cm;
 }
 .only-printing{
     display: flex;
     position: absolute;
-    top: 0.3rem;
-    left: 85%;
+    bottom: 88%;
+    left: 82%;
     padding-top: 1.6cm;
     visibility: visible;
 }
@@ -131,6 +124,7 @@ hr{
     height: 0.3px;
     padding-left: 1.6cm;
     padding-left: 1.6cm;
+    width: 85%;
 }
 
 section div{
@@ -160,7 +154,7 @@ section div{
     visibility: hidden;
 }
 
-#img-conteudo{
+.img-conteudo{
     width: 30%;
     height: auto;
     display: grid;
@@ -168,27 +162,24 @@ section div{
     padding-right: auto;
 }
 
-#img-conteudo a img{
+.img-conteudo a img{
     max-width: 50%;
 }
-#img-conteudo img{
+.img-conteudo img{
     max-width: 50%;
 }
 
 #ctm{
+    display: flex;
     width: 70%;
-    align-self: center;
+    align-self: flex-end;
 
-}
-
-#unip{
-    width: auto;
-    align-self: center;
 }
 
 #ufabc {
-    width: auto;
-    align-self: center;
+    display: flex;
+    width: 70%;
+    align-content: flex-end;
 }
 
 .logo-link {
@@ -240,19 +231,21 @@ section div{
 button{
     cursor: pointer;
 }
-#ContainerBandeiras{
+.ContainerImg{
     display: flex;
     flex-direction: row;
     height: 8rem;
     width: fit-content;
     
 }
-#ContainerBandeiras a img{
-    height: 3rem;
-    width: 5rem;
-}
-.GrupoBandeiras{
+
+.GrupoImg{
     display: flex;
     flex-direction: column;
     width: fit-content;
+}
+
+.GrupoImg a img{
+    min-width: 5rem;
+    max-width: 5rem;
 }
