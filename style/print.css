@@ -12,32 +12,32 @@ body{
 h1 {
     font-family: 'Noto Serif', serif;
     color: rgb(77, 36, 2);
-    font-size: 2.5rem;
+    font-size: 40px;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-family: 'Noto Serif', serif;
     color: #F2B646;
 }
 
 h3 {
-    font-size: 1.3rem;
+    font-size: 20.8px;
     font-family: 'Noto Serif', serif;
 }
 
 h4 {
-    font-size: 1.15rem;
+    font-size: 18.4px;
     font-family: 'Noto Serif', serif;
     color: #F2B646;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
 }
 li {
-    font-size: 1rem;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
 }
 
