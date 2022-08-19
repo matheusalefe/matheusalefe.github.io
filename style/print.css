@@ -1,5 +1,5 @@
 body{
-    background-color: #233A59;
+    background-color: #FFF;
     margin: 0;
     padding: 0;
     color: rgb(0, 0, 0);
@@ -16,29 +16,33 @@ h1 {
 }
 
 h2 {
+    font-size: 2.5rem;
     font-family: 'Noto Serif', serif;
     color: #F2B646;
 }
 
 h3 {
+    font-size: 2rem;
     font-family: 'Noto Serif', serif;
 }
 
 h4 {
+    font-size: 1.5rem;
     font-family: 'Noto Serif', serif;
     color: #F2B646;
 }
 
 p {
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 li {
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 #Experiencias li {
-    font-family: 'Montserrat', sans-serif;
-    font-size: larger;   
+    font-family: 'Montserrat', sans-serif; 
 }
 /*Definir cores e fontes*/
 header{
@@ -48,15 +52,6 @@ header{
 }
 /*Definir tamanho do cabeçalho*/
 
-#navbar{
-    width: auto;
-    height: 105%;
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(77, 36, 2);
-    font-family: 'Noto Serif', serif;
-    
-}
 
 .no-print, .no-print *{
         display: none !important;
@@ -70,14 +65,13 @@ header{
 }
 
 #nome {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     height: 3rem;
     display: flex;
     width: 100%;
-    background-color:  #F2B646;
+    background-color:  #FFF;
     padding-top: 1.6cm;
+    padding-right: 6.4cm;
 }
 
 
@@ -92,16 +86,7 @@ header{
     flex-direction: column;
 }
 
-section {
-    height: 40%;
-    border-color: white;
-    border-style: solid;
-    border-radius: 2vw;
-
-}
-
 .titulo {
-    font-size: larger;
     text-align: center;
 }
 
@@ -109,18 +94,22 @@ section {
     page-break-before: always;
     padding-top: 1.6cm;
 }
+#invisivel{
+    height: min-content;
+    width: 100%;
+    display: flex;
+}
 .only-printing{
     display: flex;
-    position: absolute;
-    bottom: 88%;
-    left: 82%;
-    padding-top: 1.6cm;
+    position: relative;
     visibility: visible;
+    padding-top: 1.6cm;
+    padding-right: 1.6cm;
 }
 hr{
-    color: white;
-    background-color: white;
-    border-color: white;
+    color: black;
+    background-color: black;
+    border-color: black;
     height: 0.3px;
     padding-left: 1.6cm;
     padding-left: 1.6cm;
@@ -132,7 +121,6 @@ section div{
 }
 
 .conteudo {
-    font-size: large;
     width: 100%;
     display: flex;
     padding-left: 0.8cm;
