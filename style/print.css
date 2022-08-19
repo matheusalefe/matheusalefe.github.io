@@ -12,32 +12,32 @@ body{
 h1 {
     font-family: 'Noto Serif', serif;
     color: rgb(77, 36, 2);
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-family: 'Noto Serif', serif;
     color: #F2B646;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-family: 'Noto Serif', serif;
 }
 
 h4 {
-    font-size: 1.5rem;
+    font-size: 1.15rem;
     font-family: 'Noto Serif', serif;
     color: #F2B646;
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
 li {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -71,7 +71,7 @@ header{
     width: 100%;
     background-color:  #FFF;
     padding-top: 1.6cm;
-    padding-right: 6.4cm;
+    padding-right: 3cm;
 }
 
 
@@ -110,6 +110,7 @@ hr{
     color: black;
     background-color: black;
     border-color: black;
+    border-style: solid;
     height: 0.3px;
     padding-left: 1.6cm;
     padding-left: 1.6cm;
