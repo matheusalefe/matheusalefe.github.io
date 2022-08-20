@@ -65,8 +65,8 @@ header{
 }
 
 #nome {
-    justify-content: center;
-    height: 3rem;
+    justify-content: flex-end;
+    height: 40px;
     display: flex;
     width: 100vw;
     background-color:  #FFF;
@@ -225,7 +225,7 @@ button{
 .ContainerImg{
     display: flex;
     flex-direction: row;
-    height: 8rem;
+    height: 128px;
     width: fit-content;
     
 }
@@ -237,6 +237,6 @@ button{
 }
 
 .GrupoImg a img{
-    min-width: 5rem;
-    max-width: 5rem;
+    min-width: 80px;
+    max-width: 80px;
 }
