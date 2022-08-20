@@ -65,13 +65,14 @@ header{
 }
 
 #nome {
-    justify-content: flex-end;
+    justify-content: center;
     height: 3rem;
     display: flex;
-    width: 100%;
+    width: 100vw;
     background-color:  #FFF;
     padding-top: 1.6cm;
-    padding-right: 3cm;
+    position: absolute;
+    
 }
 
 
@@ -98,13 +99,14 @@ header{
     height: min-content;
     width: 100%;
     display: flex;
+    margin-bottom: 1.6cm;
 }
 .only-printing{
     display: flex;
-    position: relative;
+    position: absolute;
     visibility: visible;
     padding-top: 1.6cm;
-    padding-right: 1.6cm;
+    right: 1.6cm;
 }
 hr{
     color: black;
