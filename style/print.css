@@ -99,7 +99,7 @@ header{
     height: min-content;
     width: 100%;
     display: flex;
-    margin-bottom: 1.6cm;
+    margin-bottom: 1cm;
 }
 .only-printing{
     display: flex;
