@@ -65,7 +65,7 @@ header{
 }
 
 #nome {
-    justify-content: flex-end;
+    justify-content: center;
     height: 40px;
     display: flex;
     width: 100vw;
