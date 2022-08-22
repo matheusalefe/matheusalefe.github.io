@@ -93,7 +93,7 @@ header{
 #profile-pic {
     width: 17vw;
     height: 17vw;
-    border-color: white;
+    border-color: F9EFC9;
     border-radius: 50%;
     border-style: solid;
     margin-left: auto;
@@ -109,7 +109,7 @@ header{
 section {
     
     height: 40%;
-    border-color: white;
+    border-color: F9EFC9;
     border-style: solid;
     border-radius: 2vw;
     margin: 2vw;
@@ -121,9 +121,9 @@ section {
 }
 
 hr{
-    color: white;
-    background-color: white;
-    border-color: white;
+    color: #F9EFC9;
+    background-color: #F9EFC9;
+    border-color: #F9EFC9;
     height: 0.3px;
 }
 
