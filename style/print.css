@@ -1,45 +1,41 @@
+@page{
+    size: auto;
+    margin: 0
+}
+
 body{
-    background-color: #FFF;
+    background-color: #233A59;
     margin: 0;
     padding: 0;
-    color: rgb(0, 0, 0);
-}
-@page{
-    margin: 0;
-
+    color: black;
 }
 /*Definir cor do backgrond*/
 h1 {
     font-family: 'Noto Serif', serif;
-    color: rgb(77, 36, 2);
-    font-size: 40px;
 }
 
 h2 {
-    font-size: 24px;
     font-family: 'Noto Serif', serif;
-    color: #F2B646;
+    color: #F27830;
 }
 
 h3 {
-    font-size: 20.8px;
     font-family: 'Noto Serif', serif;
+    color: #F27830;
 }
 
 h4 {
-    font-size: 18.4px;
     font-family: 'Noto Serif', serif;
-    color: #F2B646;
+
 }
 
 p {
-    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
 }
 li {
-    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
 }
+
 
 #Experiencias li {
     font-family: 'Montserrat', sans-serif; 
@@ -83,6 +79,7 @@ header{
     padding-right: 0.8cm;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 32px;
     display: flex;
     flex-direction: column;
 }
@@ -105,7 +102,7 @@ header{
     display: flex;
     position: absolute;
     visibility: visible;
-    padding-top: 1.6cm;
+    padding-top: 0.8cm;
     right: 1.6cm;
 }
 hr{

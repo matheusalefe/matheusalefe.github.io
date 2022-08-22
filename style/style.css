@@ -2,26 +2,26 @@ body{
     background-color: #233A59;
     margin: 0;
     padding: 0;
-    color: white;
+    color: #F9EFC9;
 }
 /*Definir cor do backgrond*/
 h1 {
     font-family: 'Noto Serif', serif;
-    color: rgb(77, 36, 2);
 }
 
 h2 {
     font-family: 'Noto Serif', serif;
-    color: #F2B646;
+    color: #F27830;
 }
 
 h3 {
     font-family: 'Noto Serif', serif;
+    color: #F27830;
 }
 
 h4 {
     font-family: 'Noto Serif', serif;
-    color: #F2B646;
+
 }
 
 p {
@@ -49,14 +49,14 @@ header{
     height: 105%;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(77, 36, 2);
+    background-color: #182A40;
     font-family: 'Noto Serif', serif;
     
 }
 
 #navbar a {
     text-decoration: none;
-    color: #F2B646;
+    color: #F27830;
     font-size: large;
     font-weight: bold;
     
@@ -78,7 +78,7 @@ header{
     display: flex;
     height: auto;
     width: 100%;
-    background-color:  #F2B646;
+    background-color:  #F27830;
 }
 
 #foto-candidato {
@@ -239,7 +239,7 @@ footer a img {
 
 footer div h3 {
     font-size: large ;
-    color: #F2B646;
+    color: #F27830;
     
 }
 
@@ -251,8 +251,8 @@ footer div ul li {
 #circulo{
     width: 17vw;
     height: 17vw;
-    border-color:#F2B646;
-    background-color: #F2B646;
+    border-color:#F27830;
+    background-color: #F27830;
     border-radius: 50%;
     border-style: solid;
     margin-left: 2vw;
