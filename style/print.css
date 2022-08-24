@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #233A59;
+    background-color: #FFF;
     margin: 0;
     padding: 0;
     color: black;
@@ -12,28 +12,34 @@ body{
 /*Definir cor do backgrond*/
 h1 {
     font-family: 'Noto Serif', serif;
+    font-size: 40px;
 }
 
 h2 {
     font-family: 'Noto Serif', serif;
     color: #F27830;
+    font-size: 26px;
 }
 
 h3 {
     font-family: 'Noto Serif', serif;
     color: #F27830;
+    font-size: 22px;
 }
 
 h4 {
     font-family: 'Noto Serif', serif;
+    font-size: 18px;
 
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
 li {
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
 
 
@@ -114,6 +120,10 @@ hr{
     padding-left: 1.6cm;
     padding-left: 1.6cm;
     width: 85%;
+}
+
+section{
+    border-style: none;
 }
 
 section div{
