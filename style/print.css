@@ -143,12 +143,13 @@ section div{
     padding-right: 0.8cm;
 }
 
-#texto-conteudo {
+.texto-conteudo {
     width: 70%;
     text-align: justify;
 }
 
-#texto-conteudo a {
+.texto-conteudo
+ a {
     visibility: hidden;
 }
 
@@ -222,7 +223,7 @@ section div{
     margin-right: 3vw;
 }
 
-#lista-atributos{
+.lista-atributos{
     text-align: justify;
 }
 
