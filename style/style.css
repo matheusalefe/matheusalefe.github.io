@@ -222,11 +222,12 @@ section div{
 footer {
     background-color:  #192A40;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     height: auto;
     display: flex;
+    flex-direction: column;
     position: relative;
-    
+    text-align: center
 }
 
 #links-externos{
@@ -312,6 +313,22 @@ button{
 .only-printing{
     display: none;
     visibility: hidden;
+}
+
+#infoRodape{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    text-align: start;
+}
+#linkE{
+    text-decoration: none;
+    color: #FFDE00;
+}
+
+:hover #linkE{
+    color: #FFF194;
 }
 
 @media (max-width: 768px) {
