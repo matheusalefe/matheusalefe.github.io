@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/print.css" media="print">
+    <link rel="shortcut icon" href="img/Matheus_Alefe_Logo.ico" type="image/x-icon">
+    <!-- Iniciar Favicon -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Noto+Serif&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Matheus Alefe</title>
+</head>
+<body>
+    
+    <header>
+        <div id="invisivel">
+            <div id="nome">
+                <h1>Matheus Alefe</h1>
+            </div>
+            <img src="./img/qr-code.png" alt="qr-code" class="only-printing">
+        </div>
+        <nav id="navbar" class="no-print">
+            <a href="/index.html">Home</a>
+            <a href="/portifolio.html">Portifolio</a>
+            <a href="/contato.html">Contato</a>
+        </nav>
+    <div id="div">
+        <div id="foto-candidato" class="no-print">
+            <a onclick=imprimirCurriculo() onmouseenter="hoverIn()" onmouseleave="hoverOut()"><img src="img/profile-pic.jpg" alt="Matheus Alefe" id="profile-pic"></a>
+            <p id="mensagem"></p>
+        </div>
+        <div id="bio">
+            <div>
+                <h2>Dados Pessoais:</h2>
+                <p>Endereço: Vila Scarpelli, Santo André -SP</p>
+                <p>Idade: 19 anos</p>
+                <p>Estado Civil: Solteiro</p>
+            </div>
+            <div>
+                <h2>Sobre:</h2>
+                <p>Apaixonado por tecnologia desde criança, tive meu primeiro contato com programação aos 11 anos de idade. Desde lá estudo tanto por conta própria quanto procurando qualificação em cursos livres. Cursando Ciência da Computação!</p>
+            </div>
+        </div>
+    </div>
+    <!--Inserir dados do cabeçalho: Imagem com link para o CV, Dados pessoais e introdução-->
+    </header>
+    <section class="topico">
+        <!--Criar classe "Tópico"-->
+        <div class="titulo">
+            <h2>Formação Acadêmica</h2>
+            <hr>
+            <!--Criar classe "Título"-->
+            </div>
+                <div class="conteudo-1">
+                    <!--Criar classe "Conteúdo"-->
+                    <div class="conteudo">
+                    <div class="texto-conteudo">
+                        <h3><strong>Ensino Médio:</strong></h3>
+                        <p>Centro Educacional da Fundação Salvador Arena – Colégio Termomecanica</p>
+                        <p>Situação: Formado</p>
+                        <p>Período: Janeiro/2018 - Dezembro/2020</p>
+                        
+                    </div>
+                    <div class="img-conteudo">
+                        <div class="logo-link" id="ctm">
+                        <a href="http://www.cefsa.org.br/"><img src="img/TM-Logo.png" alt="Colégio Termomecanica"></a>
+                        </div>
+                        <!--Inserção de conteúdo: Imagens com link-->
+                    </div>
+                    </div>
+                    <div class="conteudo">
+                        <div class="texto-conteudo">
+                            <h3><strong>Ensino Superior:</strong></h3>
+                            <p>Universidade Federal do ABC - UFABC</p>
+                            <p>Curso: Bacharel em Ciência e Tecnologia (BC&T)</p>
+                            <p>Situação: Matriculado</p>
+                            <p>Período: Setembro/2021 em diante</p>
+                        </div>
+                        <div class="img-conteudo">
+                            <div class="logo-link" id="ufabc"><a href="https://www.ufabc.edu.br/"><img src="img/ufabc-logo.png" alt="UFABC"></a>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class='titulo'>
+            <h2 class="pagebreaker">Experiência Profissional</h2>
+            <hr>
+            <div class="conteudo">
+                <div class="texto-conteudo">
+                    <h3>InfoRMI - Solução em Automação e TI</h3>
+                    <ul class="lista-atributos">
+                        <li>Cargos: 
+                            <ul>
+                                <li>Estagiário (Mai/22 - Out/22)</li>
+                                <li>Programador Jr (Out/22 - Atualmente)</li>
+                            </ul>
+                            </li>
+                    </ul>
+                    <p class="no-print">InfoRMI tem como principal atividade a programação de Controladores Lógicos Programáveis (CLP) e Interfaces Homem Máquina (IHM) na área de automação.
+                    Com o objetivo de fornecer soluções para empresas e seus produtos, a InfoRMI aplica novas e já consagradas tecnologias no ramo da automação. 
+                    Desenvolvemos Sistema de Rastreabilidade e Automação baseada em PC. 
+                    Trabalhamos lado a lado com nossos clientes desde a definição de arquitetura do sistema. 
+                    Fornecemos consultoria para redesenho de processos. 
+                    Desenvolvemos softwares sob medida para cada negócio. 
+                    Executamos baterias de testes para garantir a qualidade do nosso trabalho. 
+                    Acompanhamos o processo de implantação, oferecendo treinamentos e garantia.</p>
+                    <h4>Funções desempenhadas:</h4>
+                    <ul>
+                        <li>Programador de robô industrial</li>
+                        <li>Programador Front-end</li>
+                    </ul>
+                </div>
+
+                <div class="img-conteudo">
+                    <a href="http://www.info-rmi.com/Index.html" target="_blank"><img src="/img/Logo_InfoRMI.png" alt="Logo InfoRMI"></a></div>
+            </div>
+            <div class="conteudo">
+                <div class="texto-conteudo">
+                    <h3>Grupo Herval - Loja iPlace Shopping ABC</h3>
+                    <ul class="lista-atributos">
+                        <li>Cargo: Consultor interno de vendas</li>
+                        <li>Período: Jul/21 - Mai/22</li>
+                    </ul>
+                    <p class="no-print">As Lojas iPlace fazem parte do Grupo Herval que é uma empresa gaúcha fundada em 1959, reconhecida por seus clientes pela qualidade e pela tradição.
+                    Com sede na cidade de Dois Irmãos/RS, integra segmentos diferenciados e está presente em todas as regiões do país. A iPlace é especialista Apple, reconhecida pela qualidade, simplicidade e inovação ligados à marca.
+                    As lojas iPlace oferecem o mais alto padrão de atendimento, com consultores especializados e um ambiente preparado para interagir com os produtos Apple e marca própria.Atualmente, possuímos mais de 140 lojas iPlace no Brasil e assumimos uma posição de maior APR do Brasil e de toda América Latina. Na iPlace, além de encontrar toda linha de produtos e acessórios Apple e marca própria, você também encontra serviços diferenciados, como assistência técnica autorizada, treinamentos personalizados e workshops gratuitos.</p>
+                    <h4>Funções desempenhadas:</h4>
+                        <ul>
+                            <li>Atendimento e negociação com o cliente</li>
+                            <li>Organização do espaço de trabalho</li>
+                            <li>Negociação a distância via mídias sociais, telefone e CRM</li>
+                        </ul>
+                        <hr>
+                </div>
+                <div class="img-conteudo">
+                    <a href="https://www.iplace.com.br/" target="_blank"><img src="/img/logo-iplace.png" alt="Logo iPlace"></a></div>
+                </div>
+            
+        </div>
+        <div class="titulo">
+            <h2 class="no-print"><strong>Formação Complementar</strong></h2>
+            <hr class="no-print">
+        </div>
+        <div>
+            <div class="conteudo">
+                <div class="texto-conteudo" class="no-print">
+                    <h3>Curso “Talentos Digitais Diversos” por Itaú Unibanco e Mastertech</h3>
+                    <p>Abordado: Python 3, HTML, CSS, Django e Metodologias Ágeis</p>
+                    <a href="/docs/Certificado_TDD.pdf" target="_blank"><button>Certificado</button></a>
+                    <h3>Curso “Python 3 – Mundo 1: fundamentos” por cursoemvideo.com</h3>
+                    <p>Abordado: Python 3</p>
+                    <h3>Curso “Microsoft Excel 2013 – Básico” por Fundação Bradesco</h3>
+                    <p>Abordado: Excel 2013</p>
+                    <a href="/docs/Excel.pdf" target="_blank"><button>Certificado</button></a>
+                    <h3>Curso “Educação Financeira – Investimentos” por Colégio Termomecanica</h3>
+                    <p>Abordado: Renda Fixa e Variável</p>
+                    <a href="/docs/Certificado - Curso Eletivo.pdf" target="_blank"><button>Certificado</button></a>
+                    <h3>Curso "HTTP: ENTENDENDO A WEB POR BAIXO DOS PANOS" por Alura Cursos On-line de tecnologia</h3>
+                    <p>Abordado: Protocolo HTTP 1.1, HTTP 2 e HTTPS</p>
+                    <a href="/docs/Curso HTTP.pdf" target="_blank"><button>Certificado</button></a>
+                </div>
+            <div class="logo-link">
+                
+            </div>
+        </div>
+        <div class="titulo">
+            <h2 class="pagebreaker"><strong>Experiências Relevantes</strong></h2>
+            <hr>
+        </div>
+        <div>
+            <div class="conteudo">
+                <div class="texto-conteudo">
+                    <ul id="Experiencias">
+                        <li>Viagem internacional pela InfoRMI Robotics trabalhando como programador de robô industrial na Volkswagen Argentina em Pacheco/Buenos Aires.</li>
+                        <li>Capitão e programador da equipe de robótica do colégio;</li>
+                        <li>Palestrante sobre Educação financeira no evento "Areninha em debate" organizado pelo Colégio Termomecanica</li>
+                        <li>Participação no desenvolvimento de projeto front-end para a InfoRMI Robotics utilizando React.ts e a metodologia Ágil Scrum </li>
+                    </ul>
+                </div>
+        </div>
+        <div class="titulo">
+            <h2><strong>Habilidades e idiomas</strong></h2>
+            <hr>
+        </div>
+            <div id="conteudo-skills">
+                <div id="texto-skills">
+                    <h3><strong>Idiomas:</strong></h3>
+                    <ul>
+                        <li>Português (nativo)</li>
+                        <li>Inglês (fluente)</li>
+                        <li>Espanhol (avançado)</li>
+                        <li>Alemão (iniciante)</li>
+                    </ul>
+                    <h3><strong>Habilidades:</strong></h3>
+                    <ul>
+                        <li>Pacote Office (avançado)</li>
+                        <li>HTML e CSS (avançado)</li>
+                        <li>Python3 (avançado)</li>
+                        <li>Django (intermediário)</li>
+                        <li>Metodologias Ágeis (avançado)</li>
+                        <li>TypeScript (avançado)</li>
+                        <li>React.js (avançado)</li>
+                        <li>JSON Server (iniciante)</li>
+                    </ul>
+                </div>
+            <div id="logo-skills">
+                <div class="ContainerImg">
+                    <div class="GrupoImg">
+                        <a href="#"><img src="img/bandeira-brasil.png" alt=""></a>
+                        <a href="#"><img src="img/bandeira-eua.png" alt=""></a>
+                    </div>
+                    <div class="GrupoImg">
+                        <a href="#"><img src="img/Bandeira-da-Alemanha.png" alt=""></a>
+                        <a href="#"><img src="img/bandeira-espanha.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="ContainerImg">
+                    <div class="GrupoImg">
+                        <a href="#"><img src="img/pacote-office.png" alt=""></a>
+                    <a href="https://github.com/matheusalefe/matheusalefe.github.io"><img src="img/logo-html-css.png" alt=""></a>
+                    <a href="https://repl.it/@matheusalefe/Nivin-20"><img src="img/python-logo.png" alt=""></a>
+                    </div>
+                    <div class="GrupoImg">
+                        <a href="#"><img src="./img/png-transparent-typescript-hd-logo-thumbnail.png" alt="typescript"></a>
+                        <a href="#"><img src="./img/React-icon.png" alt="React"></a>
+                        <a href="https://github.com/matheusalefe/tdd-aula-itau"><img src="img/django-logo.png" alt=""></a>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="no-print">
+        <!--Criar rodapé-->
+        <div id="infoRodape">
+            <div>
+                <h3>Contato:</h3>
+                <ul>
+                    <li>matheus.orvati@hotmail.com</li>
+                    <li>+55 (11) 99560-5149</li>
+                </ul>
+            </div>
+            <div id='links-externos'>
+                <a href="https://github.com/matheusalefe"><img src="img/github-logo.png" alt="Meu GitHub"></a>
+                <a href="https://www.linkedin.com/in/matheusalefe/"><img src="img/linkedin.png" alt="Meu Linkedin"></a>
+            </div>
+        </div>
+        <h3>Feito com carinho pela <a id="linkE" href="https://www.empirestarltda.com">Empire Star</a></h3>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,250 @@
+@page{
+    size: auto;
+    margin: 0
+}
+
+body{
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+/*Definir cor do backgrond*/
+h1 {
+    font-family: 'Noto Serif', serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Noto Serif', serif;
+    color: #F27830;
+    font-size: 26px;
+}
+
+h3 {
+    font-family: 'Noto Serif', serif;
+    color: #F27830;
+    font-size: 22px;
+}
+
+h4 {
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+
+#Experiencias li {
+    font-family: 'Montserrat', sans-serif; 
+}
+/*Definir cores e fontes*/
+header{
+    width: 100%;
+    display: flexbox;
+    justify-content: center;
+}
+/*Definir tamanho do cabeçalho*/
+
+
+.no-print, .no-print *{
+        display: none !important;
+    }
+
+
+#div {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+#nome {
+    justify-content: center;
+    height: 40px;
+    display: flex;
+    width: 100vw;
+    background-color:  #FFF;
+    padding-top: 1.6cm;
+    position: absolute;
+    
+}
+
+
+#bio {
+    width: 85%;
+    text-align: justify;
+    padding-left: 0.8cm;
+    padding-right: 0.8cm;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.pagebreaker{
+    page-break-before: always;
+    padding-top: 1.6cm;
+}
+#invisivel{
+    height: min-content;
+    width: 100%;
+    display: flex;
+    margin-bottom: 1cm;
+}
+.only-printing{
+    display: flex;
+    position: absolute;
+    visibility: visible;
+    padding-top: 0.8cm;
+    right: 1.6cm;
+}
+hr{
+    color: black;
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    height: 0.3px;
+    padding-left: 1.6cm;
+    padding-left: 1.6cm;
+    width: 85%;
+}
+
+section{
+    border-style: none;
+}
+
+section div{
+    margin: 0.5vw;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    padding-left: 0.8cm;
+    padding-right: 0.8cm;
+}
+
+.conteudo-1{
+    display: grid;
+    padding-left: 0.8cm;
+    padding-right: 0.8cm;
+}
+
+.texto-conteudo {
+    width: 70%;
+    text-align: justify;
+}
+
+.texto-conteudo
+ a {
+    visibility: hidden;
+}
+
+.img-conteudo{
+    width: 30%;
+    height: auto;
+    display: grid;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.img-conteudo a img{
+    max-width: 50%;
+}
+.img-conteudo img{
+    max-width: 50%;
+}
+
+#ctm{
+    display: flex;
+    width: 70%;
+    align-self: flex-end;
+
+}
+
+#ufabc {
+    display: flex;
+    width: 70%;
+    align-content: flex-end;
+}
+
+.logo-link {
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-link img{
+    width: 60%;
+}
+
+#texto-skills {
+    width: 50%;
+}
+
+#logo-skills {
+    width: 35%;
+    justify-content: right;
+    display: grid;
+    justify-content: space-around;
+}
+
+#logo-skills div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo-skills div img {
+    width: 90%;
+}
+
+#links-externos{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#liks-externos a img{
+    margin-right: 3vw;
+}
+
+.lista-atributos{
+    text-align: justify;
+}
+
+button{
+    cursor: pointer;
+}
+.ContainerImg{
+    display: flex;
+    flex-direction: row;
+    height: 128px;
+    width: fit-content;
+    
+}
+
+.GrupoImg{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.GrupoImg a img{
+    min-width: 80px;
+    max-width: 80px;
+}

@@ -1,0 +1,362 @@
+html{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+body{
+    background-color: #233A59;
+    margin: 0;
+    padding: 0;
+    color: #F9EFC9;
+}
+/*Definir cor do backgrond*/
+h1 {
+    font-family: 'Noto Serif', serif;
+}
+
+h2 {
+    font-family: 'Noto Serif', serif;
+    color: #F27830;
+}
+
+h3 {
+    font-family: 'Noto Serif', serif;
+    color: #F27830;
+}
+
+h4 {
+    font-family: 'Noto Serif', serif;
+
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Experiencias li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;   
+}
+/*Definir cores e fontes*/
+header{
+    width: 100%;
+    display: flexbox;
+    padding-bottom: 1vw;
+    justify-content: center;
+}
+/*Definir tamanho do cabeçalho*/
+
+#navbar{
+    width: auto;
+    height: 105%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #182A40;
+    font-family: 'Noto Serif', serif;
+    
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #F27830;
+    font-size: large;
+    font-weight: bold;
+    
+    
+}
+
+#div {
+    width: 100%;
+    padding-top: 1.5%;
+    height: auto;
+    display: flex;
+}
+
+#nome {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color:  #F27830;
+}
+
+#foto-candidato {
+    width: 17vw;
+    height: 17vw;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 2vw;
+    
+}
+
+#profile-pic {
+    width: 17vw;
+    height: 17vw;
+    border-color: F9EFC9;
+    border-radius: 50%;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bio {
+    width: 60%;
+    padding-left: 5vw;
+    padding-top: 3.5vw;
+}
+
+section {
+    
+    height: 40%;
+    border-color: F9EFC9;
+    border-style: solid;
+    border-radius: 2vw;
+    margin: 2vw;
+}
+
+.titulo {
+    font-size: larger;
+    text-align: center;
+}
+
+hr{
+    color: #F9EFC9;
+    background-color: #F9EFC9;
+    border-color: #F9EFC9;
+    height: 0.3px;
+}
+
+section div{
+    margin: 2vw;
+}
+
+.conteudo {
+    font-size: large;
+    width: 100%;
+    display: flex;
+}
+#conteudo-skills {
+    font-size: large;
+    width: 90%;
+    display: flex;
+}
+
+.conteudo-1{
+    display: grid;
+}
+
+.texto-conteudo {
+    width: 70%;
+    text-align: justify;
+}
+
+.texto-conteudo a {
+    width: 50%;
+    text-align: justify;
+}
+
+.img-conteudo{
+    width: 30%;
+    height: auto;
+    display: grid;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.img-conteudo a img{
+    max-width: 50%;
+    justify-content: flex-end;
+}
+.img-conteudo img{
+    max-width: 50%;
+}
+
+#ctm{
+    width: 70%;
+    align-self: flex-end;
+
+}
+
+
+#ufabc {
+    width: 70%;
+    align-self: flex-end;
+}
+
+.logo-link {
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-link img{
+    width: 60%;
+}
+
+#texto-skills {
+    width: 50%;
+}
+
+#logo-skills {
+    width: 35%;
+    justify-content: right;
+    display: grid;
+    justify-content: space-around;
+}
+
+#logo-skills div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo-skills div img {
+    width: 90%;
+}
+footer {
+    background-color:  #192A40;
+    width: 100%;
+    justify-content: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center
+}
+
+#links-externos{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#liks-externos a img{
+    margin-right: 3vw;
+}
+/*Centralizar e tratar Divs e imagens*/
+footer a img {
+    height: 6vw;
+    padding-top: 1vw;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+footer div h3 {
+    font-size: large ;
+    color: #F27830;
+    
+}
+
+footer div ul li {
+    font-size: medium;
+}
+/*Tratar rodapé*/
+
+#circulo{
+    width: 17vw;
+    height: 17vw;
+    border-color:#F27830;
+    background-color: #F27830;
+    border-radius: 50%;
+    border-style: solid;
+    margin-left: 2vw;
+}
+
+#circulo a{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #233A59;
+    font-size: medium;
+}
+
+#circulo a p{
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+
+.lista-atributos{
+    text-align: justify;
+}
+
+button{
+    cursor: pointer;
+}
+.ContainerImg{
+    display: flex;
+    flex-direction: row;
+    height: 8rem;
+    width: fit-content;
+    
+}
+
+.GrupoImg{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.GrupoImg a img{
+    min-width: 5rem;
+    max-width: 5rem;
+}
+
+.only-printing{
+    display: none;
+    visibility: hidden;
+}
+
+#infoRodape{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    text-align: start;
+}
+#linkE{
+    text-decoration: none;
+    color: #FFDE00;
+}
+
+:hover #linkE{
+    color: #FFF194;
+}
+
+@media (max-width: 768px) {
+    .conteudo{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .conteudo h3{
+        display: none;
+    }
+    .img-conteudo{
+        width:100%;
+        justify-content: center;
+    }
+    .texto-conteudo{
+        width: 90%;
+    }
+    #logo-skills{
+        margin-top: 5rem;
+        margin-left: 2.5rem;
+    }
+    #logo-skills div{
+        display: flex;
+        flex-direction: column;
+    }
+    .GrupoImg{
+        display: flex;
+        flex-direction: column;
+    }
+}
